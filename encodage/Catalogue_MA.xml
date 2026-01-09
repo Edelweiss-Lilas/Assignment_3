@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/myProjet.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliothèque de la reine Marie-Antoinette</title>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Fanny Suszko</name>
+            </respStmt>
+            <respStmt xml:id="PL">
+               <persName>Paul Lacroix, 1806-1884</persName>
+               <resp>éditeur scientifique</resp>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <persName>Paulmy, Antoine-René de Voyer, marquis d'Argenson, 1722-1787</persName>
+               <resp>note éditoriale</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ecole des Chartes M2 -TNAH</publisher>
+            <date>2025</date>
+            <availability>
+               <licence>The monograph could be consulte online <ref type="url" target="http://ark.bnf.fr/ark:/12148/cb30711554b">http://ark.bnf.fr/ark:/12148/cb30711554b</ref></licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Bibliothèque de la reine Marie-Antoinette au Petit-Trianon d'après l'inventaire original dressé par ordre de la convention.
+               Catalogue avec des notes inédites du marquis de Paulmy</title>
+               <author>Paul LaCroix, Conservateur de la Bibliothèque de l'Arsenal</author>
+               <pubPlace>
+                  <settlement>Paris</settlement> <country>France</country>
+               </pubPlace>
+               <publisher>Jules Gay, éditeur</publisher>
+               <address>
+                  <street>
+                     <num>41</num> quai des Augustins </street>
+               </address>
+               <date>1863</date>
+          </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France à l'Arsenal</institution>
+                  <repository>département Philosophie, histoire, sciences de l'homme</repository>
+                  <altIdentifier>
+                     <idno type="cote">8-Z Le Senne-12367</idno>
+                     <note>Cote inscrite sur la page de garde du livre sur le catalogue de la bibliothèque de la reine Marie-Antoinette</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="monographie">
+                  <supportDesc>
+                     <extent style="volume">1 vol.</extent>
+                     <foliation style="pagination">XXVIII-128 p.</foliation>
+                     <foliation style="format">in-16</foliation>
+                  </supportDesc>
+                  </objectDesc>
+                  <additions>
+                     <bibl>
+                         <edition>
+                            <add>
+                              <note>Ce volume a été tiré à :</note>
+                                 <list type="tirage_details">
+                                    <item>
+                                    <num value="2">2 exemplaires</num>
+                                    <material>peau de vélin</material>
+                                    </item>
+                                    <item>
+                                    <num value="15">15 exemplaires</num>
+                                    <material>papier de Chine</material>
+                                    </item>
+                                    <item>
+                                    <num value="300">300 exemplaires</num>
+                                    <material>papier de Hollande</material>
+                                    </item>
+                                 </list>
+                                 </add>    
+                        </edition>
+                     </bibl>
+                  </additions>
+               </physDesc>
+               <history>
+                  <acquisition>
+                     <p>Il se trouve à la Bibliothèque nationale de France</p>
+                     <stamp type="library_mark">Bibliotheque Nationale</stamp>
+                     <ab>Département des Imprimés</ab>
+                     <ref>Fonds Le Senne <num>19668</num></ref>
+                  </acquisition>
+               </history>
+            </msDesc>
+            <listPerson>
+               <person xml:id="Did_001">
+               <persName>M.Diderot</persName>
+               </person>
+               <person xml:id="Ale_002">
+                  <persName>M.d'Alembert</persName>
+               </person>
+               <person xml:id="Tur_003">
+                  <persName>M.Turpin</persName>
+               </person>
+               <person xml:id="Sta_004">
+                  <persName>Stanislas</persName>
+               </person>
+               <person xml:id="Buf_005">
+                  <persName>Buffon</persName>
+               </person>
+               <person xml:id="Rea_006">
+                  <persName>M.de Réaumur</persName>
+               </person>
+               <person xml:id="Nic_007">
+                  <persName>Nicolas</persName>
+               </person>
+               <person xml:id="Dem_008">
+                  <persName>Demarque</persName>
+               </person>
+               <person xml:id="Ser_009">
+                  <persName>de la Servole</persName>
+               </person>
+               <person xml:id="Val_010">
+                  <persName>M.Valmont de Bomare</persName>
+               </person>
+               <person xml:id="Sti_011">
+                  <persName>Sticotti</persName>
+               </person>
+               <person xml:id="Sab_012">
+                  <persName>Sabatier de Castres</persName>
+               </person>
+               <person xml:id="Van_013">
+                  <persName>Ch.A.Vandermonde</persName>
+               </person>
+               <person xml:id="Pre_014">
+                  <persName>Préfort</persName>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="Par_001">
+                  <placeName>Paris</placeName>
+               </place>
+               <place xml:id="Laus_002">
+                  <placeName>Lausanne</placeName>
+               </place>
+               <place xml:id="LaH_003">
+                  <placeName>La Haye</placeName>
+               </place>
+               <place xml:id="Ber_004">
+                  <placeName>Berne</placeName>
+               </place>
+               <place xml:id="Lon_005">
+                  <placeName>Londres</placeName>
+               </place>
+               <place xml:id="Lyo_006">
+                  <placeName>Lyon</placeName>
+               </place>
+            </listPlace>
+      </sourceDesc>
+   </fileDesc>
+</teiHeader>
+  <text>
+      <body>
+         <div type="section">
+         <head>Sciences et Arts :</head>
+            <pb n="1"/> 
+            <p>
+               <listBibl>
+                  <bibl n="1">
+                    <title>La Philosophie du bon sens , ou Réflexions philosophiques sur l'incertitude des connoissances humaines</title>                     
+                    <pubPlace><placeName ref="#LaH_003">La Haye</placeName></pubPlace>
+                    <publisher>P. Paupie</publisher>
+                     <edition>nouv. édit. Augmentée</edition>
+                    <date>1768</date>                     
+                   <biblScope unit="volume">2 vol.</biblScope> 
+                   <biblScope unit="format">in-12</biblScope>
+                  </bibl>
+               <bibl n="2">
+                 <title>Dictionnaire des origines , découvertes, inventions et établissemens, ou Tableau historique de l'origine et du progrès des sciences 
+                    en tout ce qui a rapport aux arts et aux sciences , aux modes , etc.<orgName>par une Société de gens de lettres</orgName></title>
+                  <author>Par <persName ref="#Sab_012">Sabatier de Castres</persName> et <persName ref="#Pre_014">Préfort.</persName></author>
+                  <pubPlace><placeName ref="#Par_001">Paris</placeName></pubPlace> 
+                  <publisher>Moutard</publisher>
+                  <date>1777</date>
+                  <biblScope unit="volume">3 vol.</biblScope> 
+                  <biblScope unit="format">in-8.</biblScope> 
+                  
+               </bibl>
+            <bibl n="3">
+                  <title>Encyclopédie, ou Dictionnaire raisonnédes sciences , arts et métiers , par une Société de gens de lettres </title> 
+                  <author> mis en ordre et publié par<persName ref="#Did_001">M. Diderot</persName> , 
+                    et, quant à la partie mathématique , par <persName ref="#Ale_002">M.d'Alembert</persName></author>
+                  <pubPlace><placeName ref="#Laus_002">Lausanne</placeName></pubPlace>
+                  <publisher> Société typographique</publisher>
+                  <edition>édition conforme à celle de Pellet.</edition> 
+                  <date>1778</date>
+                  <biblScope unit="volume">72 vol.</biblScope> 
+                  <biblScope unit="format">in-8 à 2 col.</biblScope>
+            </bibl>
+              <pb n="2"/>
+            <bibl n="4">               
+                  <title>Recueil de planches pour la nouvelle édition du Dictionnaire raisonné des sciences, arts et métiers , avec leur explication.</title> 
+                  <pubPlace><placeName ref="#Laus_002">Lausanne</placeName> et <placeName ref="#Ber_004">Berne</placeName></pubPlace> 
+                  <edition>Société typographique </edition>
+                  <date>1779</date> 
+                  <biblScope unit="volume">3 vol.</biblScope> 
+                  <biblScope unit="format">in-4,fig</biblScope>
+            </bibl>
+            <bibl n="5">
+                  <title>Dictionnaire des passions , des vertus et des vices , ou Recueil des meilleurs morceaux de morale pratique, tirésdes auteurs anciens et modernes , étrangers ou nationaux,</title>                   
+                  <author>Par <persName ref="#Sti_011">Sticotti</persName> et <persName ref="#Sab_012">Sabatier de Castres.</persName></author>   
+                  <pubPlace><placeName ref="#Par_001">Paris</placeName></pubPlace>
+                  <publisher>Laporte</publisher>
+                  <date>1767</date>
+                  <biblScope unit="volume">2 vol,</biblScope> 
+                  <biblScope unit="format">in-8 </biblScope>                  
+                  <add> par l'auteur des Trois siècles de la littérature. </add>
+            </bibl>
+            <bibl n="6">               
+                  <title>Histoire de l'Alcoran , où l'on découvre le système politique et religieux du faux prophète et les sources où il a puisé sa législation</title>
+                  <author>par <persName ref="#Tur_003">M. Turpin.</persName></author>
+                  <pubPlace><placeName ref="#Lon_005">Londres</placeName>et<placeName ref="#Par_001">Paris</placeName></pubPlace> 
+                  <publisher>Dehansy,</publisher> 
+                  <date>1775</date>
+                  <biblScope unit="volume">2 vol.</biblScope> 
+                  <biblScope unit="format">in- 12 .</biblScope>
+            </bibl>            
+            <bibl n="7">
+                  <title>Entretien d'un Européan avec un Insulaire du royaume de Dumocala . S. n .</title>
+                  <author>Par <persName ref="#Sta_004">Stanislas</persName><roleName>roi de Pologne et duc de Lorraine</roleName></author>
+                  <date>1752</date>
+                  <biblScope unit="format">in -8.</biblScope>                  
+            </bibl>            
+            <bibl n="8">
+                  <title>Dictionnaire raisonné universel d'histoire naturelle , contenant l'histoire des animaux, des végétaux et des minéraux , 
+                  celle des corps célestes , des météores et autres principaux phénomènes de la Nature , avec l’histoire et la description des drogues simples tirées des trois règnes, etc.</title>
+                  <author>par <persName ref="#Val_010">M. Valmont de Bomare</persName></author>                  
+                  <pubPlace><placeName ref="#Lyo_006">Lyon</placeName></pubPlace>
+                  <publisher>Bruyset,</publisher>
+                  <edition>3e édit. Revue et augmentée.</edition>
+                  <date>1776</date>
+                  <biblScope unit="volume">9 vol.</biblScope> 
+                  <biblScope unit="format">in-8.</biblScope>
+            </bibl>
+               <pb n="3"/>
+           <bibl n="9">
+                 <title>Œuvres complettes de <persName ref="#Buf_005"><roleName>M. le comte de </roleName>Buffon</persName>:Théorie de la Terre et les époques de la Nature.</title>
+                 <pubPlace><placeName ref="#Par_001">Paris</placeName></pubPlace>
+                 <publisher>Imprimerie royale,</publisher> 
+                 <date>1774 et suiv.</date>
+                 <biblScope unit="volume">13 vol</biblScope> 
+                 <biblScope unit="format">in-12 , fig.</biblScope>
+           </bibl>
+           <bibl n="10">
+                 <title>Œuvres complettes de <persName ref="#Buf_005"><roleName>M. le comte de</roleName> Buffon </persName>: Animaux, quadrupèdes.</title>
+                 <pubPlace><placeName ref="#Par_001">Paris</placeName></pubPlace>
+                 <publisher>Imprimerie royale</publisher> 
+                 <date>1775-77</date>
+                 <biblScope unit="volume">9 vol</biblScope> 
+                 <biblScope unit="format">in 42 fig.</biblScope>
+           </bibl>
+          <bibl n="11">
+                <title>Histoire naturelle : Table des matières contenues dans les Œuvres complettes</title> 
+                <author>de<persName ref="#Buf_005"><roleName>M. le comte de</roleName> Buffon.</persName></author> 
+                <pubPlace><placeName ref="#Par_001">Paris</placeName>  </pubPlace>
+                <publisher>Imprimerie royale</publisher>  
+                <date>1779</date>  
+                <biblScope unit="format">in- 12.</biblScope>
+          </bibl>            
+            <bibl n="12">
+                  <title>Mémoires pour servir à l'histoire des insectes</title>  
+                  <author>par<persName ref="#Rea_006">M.de Réaumur.</persName></author>
+                  <pubPlace><placeName ref="#Par_001">Paris</placeName></pubPlace>  
+                  <publisher>Imprimerie royale</publisher>  
+                  <date>1784</date>  
+                  <biblScope unit="volume">5 vol</biblScope> 
+                  <biblScope unit="format"> in-4 fig.</biblScope>
+            </bibl>
+            <bibl n="13">
+                  <title>Nouveau dictionnaire universel et raisonné de médecine de chirurgie et de l'art vétérinaire contenant des connoissances étendues sur toutes ces parties  etc.  
+                     par une Société de médecins.</title>
+                  <author>Par <persName ref="#Nic_007">Nicolas</persName> <persName ref="#Dem_008">Demarque</persName>  et <persName ref="#Ser_009">de la Servole.</persName></author>
+                  <placeName ref="#Par_001">Paris</placeName>  
+                  <publisher>Hérissant le fils</publisher>  
+                  <date>1772</date> 
+                  <biblScope unit="volume">6 vol</biblScope>
+                  <biblScope unit="format">in-8</biblScope>                  
+            </bibl>
+            <bibl n="14">
+                  <title>Dictionnaire portatif de santé.</title>
+                  <author>Par <persName ref="#Van_013">Ch . A. Vandermonde.</persName></author>
+                  <pubPlace><placeName ref="#Par_001">Paris</placeName></pubPlace>  
+                  <publisher>Vincent</publisher>  
+                  <date>1772-77</date>  
+                  <biblScope unit="volume">4 vol.</biblScope> 
+                  <biblScope unit="format">in-8.</biblScope>                 
+            </bibl>
+               </listBibl>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

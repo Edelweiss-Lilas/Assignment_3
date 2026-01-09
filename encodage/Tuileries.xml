@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/myProjet.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliothèque de la reine Marie-Antoinette</title>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Fanny Suszko</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ecole des Chartes M2 -TNAH</publisher>
+            <date>2025</date>
+            <availability>
+               <licence>The monograph could be consulte online <ref type="url" target="https://gallica.bnf.fr/ark:/12148/btv1b525067432/f1.item">https://gallica.bnf.fr/ark:/12148/btv1b525067432/f1.item</ref></licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Bibliothèque de la reine Marie-Antoinette au chateau des Tuileries. Catalogue authentique publié 
+                  d'après le manuscrit de la Bibliothèque nationale</title>
+               <author>Par E.Q.B.</author>
+               <pubPlace>
+                  <settlement>Paris</settlement> <country>France</country>
+               </pubPlace>
+               <publisher>Damascène Morgand</publisher>
+               <address>
+                  <street>
+                     <num>55</num> passage des panoramas </street>
+               </address>
+               <date>1884</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+            <div type="section">
+               <head>Histoire. Article 2</head>
+               <div type="subsection">
+                  <head>Histoires particulières, soit des événements soit des personnes.</head>
+               <pb n="49"/> 
+               <p>
+                  <listBibl>
+                     <bibl n="1">
+                        <title>Histoire du traité de Westphalie</title>
+                        <author>P.Bougeant</author>                         
+                        <placeName>Paris</placeName>
+                        <date>1751</date>   
+                        <material>mar.r, fil, dos orné, tr.dor.</material>
+                        <biblScope unit="volume">6 vol.</biblScope> <biblScope unit="format">in-12</biblScope>                   
+                        <affiliation>Bibliothèque nationale, Réserve</affiliation>
+                        <idno>E.VII</idno>
+                     </bibl>
+                     <bibl n="2">
+                        <title>Histoire et Mémoire du Vicomte de Turenne, maréchal-général des armées du Roi</title>
+                        <author>M.Ramsay</author>                        
+                        <placeName>Amsterdam</placeName>
+                        <publisher>Arkstée et Merkus</publisher>
+                        <date>1749</date>
+                        <material>mar.r, fil., Dos orné, tr.Dor.</material>
+                        <biblScope unit="volume">4</biblScope><biblScope unit="format">in-8</biblScope>
+                        <affiliation>Bibliothèque nationale</affiliation>                       
+                        <idno>Réserve : L.n B.</idno>
+                        <add>très bel exemplaire</add>
+                     </bibl>
+                     <bibl n="3">
+                        <title>Histoire de Jean Sobiesky, roi de Pologne</title>                        
+                        <author>abbé Coyer</author>                       
+                        <placeName>Varsovie et Paris</placeName>
+                        <date>1761</date>
+                        <material>mar.r, fil., dos orné, tr.dor.,armes</material>
+                        <biblScope unit="volume">2</biblScope><biblScope unit="format">in-12</biblScope>
+                        <affiliation>Bibliothèque nationale</affiliation>
+                        <idno>E.VII</idno>
+                     </bibl>
+                     <bibl n="4">
+                        <title>L’Esprit de la Ligue ou Histoire politique des troubles de France, pendant les 16e et 17e siècles</title>                  
+                        <placeName>Paris</placeName>
+                        <date>1767</date>
+                        <material>mar. r., fil. Dos orné. tr. Dor., armes,</material>
+                        <biblScope unit="volume">3</biblScope><biblScope unit="format">in-12</biblScope>
+                        <affiliation>Bibliothèque nationale, Réserve.</affiliation>
+                        <idno>E.VII</idno>
+                     </bibl>
+                     <bibl n="5">
+                        <title>Mémoires de Sully, ministre de Henri IV</title>                       
+                        <placeName>Londres</placeName>                        
+                        <date>1767</date>
+                        <material>mar. r., fil., dos orné, tr. Dor., armes</material>
+                        <biblScope unit="volume">8</biblScope><biblScope unit="format">in-12</biblScope>
+                        <affiliation>Bibliothèque nationale</affiliation>
+                        <idno>E.VIII, Réserve : L35 58 6 E</idno>                                                
+                        <add>Très bel exemplaire.</add>
+                     </bibl>
+                     <bibl n="6">
+                        <title>Mémoires pour servir à l’histoire d’Anne d’Autriche, épouse de Louis XIII</title>
+                        <author>Mme de Motteville</author>                                                
+                        <placeName>Amsterdam</placeName>
+                        <publisher>François Changuion</publisher>
+                        <date>1750</date>
+                        <material>mar. r., fil., dos orné, tr. Dor., armes</material>
+                        <biblScope unit="volume">6</biblScope><biblScope unit="format">in-12</biblScope>
+                        <idno>E VIII</idno>
+                     </bibl>
+                     <bibl n="7">
+                        <title>Mémoires de Mademoiselle de Montpensier, nièce de Louis XIII, contenant des particularités des
+                           règnes de Louis XIII et de Louis XIV</title>                        
+                        <placeName>Amsterdam</placeName>
+                        <publisher>Jean-Frédéric Bernard</publisher>
+                        <date>1736</date>
+                        <material>mar. r., fil., dos orné, tr. Dor., armes.</material>
+                        <biblScope unit="volume">4</biblScope><biblScope unit="format">in-12</biblScope>
+                        <affiliation>Bibliothèque nationale Réserve</affiliation>
+                     </bibl>
+                     <bibl n="8">
+                        <title>Mémoires du cardinal de Retz et de M. Joly</title>                       
+                        <placeName>Amsterdam</placeName>
+                        <publisher>Bernard</publisher>
+                        <date>1731-38</date>
+                        <biblScope unit="volume">7</biblScope><biblScope unit="format">in-12</biblScope>
+                        <idno>E.VIII</idno>
+                     </bibl>
+                     <bibl n="9">
+                        <title>Mémoires et réflexions sur les principaux événements du règne de Louis XIV</title>
+                        <author> par La Fare</author>                        
+                        <placeName>Amsterdam(Paris)</placeName>
+                        <publisher>Bernard</publisher>
+                        <date>1734</date>
+                        <biblScope unit="volume">1</biblScope><biblScope unit="format">in-12</biblScope>
+                        <idno>F.II</idno>
+                     </bibl>
+                     <bibl n="10">
+                        <title>Mémoires pour servir à l’Histoire de Louis XIV</title>
+                        <author>par l'abbé de Choisy</author>                        
+                        <placeName>Utrecht</placeName>
+                        <publisher>Van de Vater</publisher>
+                        <date>1727</date>
+                        <biblScope unit="volume">8</biblScope><biblScope unit="format">in-12</biblScope>
+                        <idno>F.II</idno>
+                     </bibl>
+                     <bibl n="11">
+                        <title>Mémoires et Lettres de Madame de Maintenon</title>
+                        <author>par La Beaumelle</author>
+                        <placeName>Amsterdam</placeName>
+                        <date>1755-56</date>                        
+                        <biblScope unit="volume">12</biblScope><biblScope unit="format">in-12</biblScope>
+                        <idno>F.II</idno>
+                     </bibl>
+                     <bibl n="12">
+                        <title>Les Mémoires et les Lettres forment deux ouvrages séparés qui ont été réunis par le rédacteur du
+                           catalogue. Leurs titres doivent être rétablis ainsi : Lettres de Madame de Maintenon à M.
+                           d’Aubigné, son frère, à différentes personnes et à M. l’abbé Gobelin.</title>
+                        <placeName>Glascow (Paris)</placeName>
+                        <edition>troisième édition, revue, corrigée et augmentée</edition>
+                        <date>1756</date>
+                        <biblScope unit="volume">7</biblScope><biblScope unit="format">in-12</biblScope>
+                        <add>aux dépens des libraires associés</add>                       
+                     </bibl>
+                     <bibl n="13">
+                        <title>Mémoires pour servir à l’histoire de Madame de Maintenon et à celle du siècle passé</title>
+                        <author>par M. de la Beaumelle</author>
+                        <placeName>Hambourg (Paris)</placeName>
+                        <date>1756</date>
+                        <material>Ces précieux exemplaires reliés en maroquin rouge, fil., dos orné, tr. Dor., aux armes de la Reine</material>
+                        <biblScope unit="volume">5</biblScope><biblScope unit="format">in-12</biblScope>                       
+                        <affiliation>bibliothèque du Baron James de Rothschild.</affiliation>
+                     </bibl>
+                  </listBibl>
+                  </p>
+               </div>
+            </div>
+      </body>
+  </text>
+</TEI>

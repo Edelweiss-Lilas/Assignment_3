@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/myProjet.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliothèque de la reine Marie-Antoinette</title>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Fanny Suszko</name>
+            </respStmt>
+         </titleStmt>
+            <publicationStmt>
+               <publisher>Ecole des Chartes M2 -TNAH</publisher>
+               <date>2025</date>
+               <availability>
+                  <licence>The monograph could be consulte online <ref type="url" target="https://gallica.bnf.fr/ark:/12148/btv1b525067432/f1.item">https://gallica.bnf.fr/ark:/12148/btv1b525067432/f1.item</ref></licence>
+               </availability>
+               </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Livres du Boudoir de la reine Marie-Antoinette. Catalogue authentique et original publié pour la première
+               fois avec préface et notes.</title>
+               <author>Par Louis Lacour</author>
+               <pubPlace>
+                  <settlement>Paris</settlement> <country>France</country>
+               </pubPlace>
+               <publisher>J. Gay</publisher>
+               <address>
+                  <street>
+                     <num>41</num>quai des Grands-Augustins</street>
+               </address>
+               <date>1862</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="section">
+            <head>Le Danger d'aimer un étranger</head>
+            <div type="subsection">
+               <head>Armoire A, tablette 1</head>
+               <pb n="38"/> 
+               <p>
+                  <listBibl>
+                     <bibl n="1">
+                        <title>Le danger d’aimer un étranger, ou Histoire de Milady Chester et d’un duc françois.</title>
+                        <author>Th.Hookham</author>                       
+                        <placeName>Londres,Paris</placeName>
+                        <publisher>Duchesne</publisher>
+                        <date>1783</date>                     
+                        <biblScope unit="format">4 parties in-12</biblScope>                   
+                        <add>“Ce roman, don’t le titre étonne d’abord parmi les livres de l’épouse étrangère d’un roi de France,
+                           n’a rien d’honorable pour le caractère national et tourne tout entier à l’avantage de l’héroïne, qui est
+                           Anglaise. Un jeune duc français réfugié en Angleterre à la suite d’un duel où il a tué un rival est
+                           reçu au château d’une jeune veuve estimable à tous égards. Celle-ci peu à peu se passionne pour son
+                           hôte, passion bientôt partagée. Pour se consacrer à M. de Durci, milady refuse le plus brillant parti
+                           et se brouille avec sa famille. Les persécutions dérangent sa santé, et un jour elle tombe malade
+                           dans la maison d’un sien oncle, loin de l’homme qu’elle aime. Le duc, qui ne peut réussir à la voir
+                           ni même à lui faire parvenir une lettre pendant sa maladie, gagne un des nouveaux domestiques, et
+                           par son moyen s’introduit oendant la nuit auprès du lit de Cléontine, qui avait fait coucher sa femme
+                           de chambre dans un cabinet voisin. Elle venait de prendre alors un calmont don’t elle avait doublé
+                           la dose par méprise et qui l’avait jetée dans un sommeil léthargique. Il la surprend seule dans un
+                           désordre qui irrite ses désirs et il se rend coupable de la plus lâche action. Le duc retourne en France
+                           et est prêt à contraacter mariage lorsque la milady arrive en proie au désespoir. Elle vient d'appren
+                           dre qu'elle est enceinte et déjà le monde la repousse. Elle retrouve son amant , le provoque en duel
+                           et se tue à ses côtés . Ce récit invraisemblable, écrit en style incorrect, est par endroits assez
+                           émouvant, et il joint à ses nombreux défauts celui d'être une mauvaise copie de Clarisse Harlowe .</add>
+                     </bibl>
+                     <bibl n="2">
+                        <title>Le Danger d'une première faute, histoire angloise</title>
+                        <author>par M. Briel</author>
+                        <placeName>Londres et Paris</placeName>
+                        <publisher>Couturier,</publisher>
+                        <date>1784</date>
+                        <biblScope unit="format">in-12</biblScope>
+                        <add>Les « Heures de loisir , » « l'Histoire du petit Pompée, » les « Voyages de lord Henri , » ouvrages
+                           qui figurent aussi dans ce catalogue, sont du même auteur , auquel on ne doit guère que ces écrits.</add>
+                     </bibl>
+                     <bibl n="3">
+                        <title>Les Dangers de la coquetterie , roman anglois de mistress Opie depuis Mme Dufour</title>
+                        <author>traduit par Mme Marie-Armande-Jeanne d'Humière</author>
+                        <placeName>Paris</placeName>
+                        <date>1787</date>
+                        <biblScope unit="volume">2 vol.</biblScope> <biblScope unit="format">in-12</biblScope> 
+                     </bibl>
+                     <bibl n="4">
+                        <title>Le Dépositaire fidèle et discret, nouvelles tablettes intéressantes et utiles.</title>
+                        <date>1775</date>
+                        <biblScope unit="format">in-24</biblScope>
+                        <add>La comédie de Voltaire qui porte aussi ce titre, et dont le sujet roule sur la philosophie de Ninon de
+                           Lenclos , n'aurait pas été par son sujet déplacée sur les rayons de la Bibliothèque du boudoir ;
+                           toutefois les probabilités nous paraissent être pour le volume ci-dessus.</add>
+                     </bibl>
+                     <bibl n="5">
+                        <title>La Destruction de la Ligue, ou la Réduction de Paris, pièce nationale en quatre actes</title>
+                        <author>par Mercier</author>
+                        <placeName>Amsterdam</placeName>
+                        <date>1782</date>
+                        <biblScope unit="format">in-8</biblScope>
+                     </bibl>
+                  </listBibl>
+               </p>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
